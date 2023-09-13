@@ -1,0 +1,40 @@
+.footer-portfolio {
+    color: rgb(65, 65, 72);
+    background-color: rgb(158, 182, 119);
+    padding-bottom: 2px;
+    padding-top: 10px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.footer-portfolio:hover {
+    border-top: 5px solid rgb(183, 246, 76);
+}
+
+.links{
+    display: flex;
+    justify-content: space-evenly ;
+    padding: 2%;
+    overflow: hidden;
+}
+
+.footer-icon {
+    color: rgb(65, 65, 72);
+}
+
+.brand-icon {
+    height: 40px;
+    width: 40px;
+    color: rgb(65, 65, 72);
+    margin-right: 10px;
+}
+.brand-icon:hover{
+    color: rgb(183, 246, 76);
+}
+
+.top-link {
+    position: relative;
+    top: -30%;
+    left: -50%;
+    overflow: hidden;
+}
