@@ -9,6 +9,7 @@ import { Skills } from './Pages/Skills'
 import { Contact } from './Pages/Contact'
 import "./Css/Footer.css"
 import "./Css/Header.css"
+import "./Css/Home.css"
 
 
 const App = () => {
@@ -17,10 +18,10 @@ const App = () => {
       <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/About" element={<About />} />
-          <Route path="/Projects" element={<Projects />} />
-          <Route path="/Skills" element={<Skills />} />
-          <Route path="/Contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       <Footer />
     </>

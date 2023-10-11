@@ -1,10 +1,9 @@
 .footer-portfolio {
     color: rgb(65, 65, 72);
     background-color: rgb(158, 182, 119);
-    padding-bottom: 2px;
-    padding-top: 10px;
-    height: 250px;
-    overflow: hidden;
+    padding-top: 20px;
+    z-index: 100;
+    opacity: 50%;
 }
 
 .footer-portfolio:hover {
