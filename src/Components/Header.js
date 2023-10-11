@@ -7,7 +7,7 @@ export const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
-    <nav>
+    <nav className="nav">
       <Link to="/" className="title">
         <img src={logo} alt="logo" className="logo" />
       </Link>
