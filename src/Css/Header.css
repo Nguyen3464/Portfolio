@@ -1,6 +1,5 @@
-.active{
+.active {
     background-color: rgb(183, 246, 76);
-
 }
 
 nav {
@@ -12,7 +11,12 @@ nav {
     position: sticky;
     top: 0;
     z-index: 10;
-    /* opacity: 85%; */
+    border-bottom: 5px solid transparent;
+    transition: border-bottom 0.9s ease;
+}
+
+nav:hover {
+    border-bottom: 5px solid rgb(183, 246, 76);
 }
 
 nav .title {
@@ -25,29 +29,30 @@ nav .title {
 .logo {
     display: flex;
     height: 75px;
-    width: 75px; 
+    width: 75px;
     border-radius: 3px;
-    
-  }
-  .logo:hover {
-    scale: 1.05;
-  }
+    transition: transform 0.9s ease;
+}
+
+.logo:hover {
+    transform: scale(1.05); 
+}
 
 nav ul {
     display: flex;
+    list-style: none;
 }
 
 nav ul li {
-   list-style: none; 
-   font-size: 2rem;
-   font-weight: 300px;
+    font-size: 2rem;
+    font-weight: 450;
 }
 
 nav ul li a {
     display: block;
     text-decoration: none;
     color: rgb(65, 65, 72);
-    margin: 0 0.3rem ;
+    margin: 0 0.3rem;
     margin-top: 10px;
     margin-right: 10px;
     border-radius: 0.5rem;
@@ -55,7 +60,8 @@ nav ul li a {
 }
 
 nav ul li a:not(.active):hover {
-    background-color:rgb(183, 246, 76) ;
+    background-color: rgb(183, 246, 76);
+    transition: background-color 0.9s ease;
 }
 
 nav .menu {
@@ -75,7 +81,6 @@ nav .menu span {
     background-color: rgb(65, 65, 72);
     border-radius: 0.2rem;
 }
-
 
 @media (max-width: 480px) {
     nav .menu {
@@ -100,23 +105,23 @@ nav .menu span {
     }
 
     nav ul li {
-        width: 100%;
         font-size: 20px;
-        font-weight: 300px;
+        font-weight: 300;
         text-align: center;
     }
 
     nav ul li a {
         margin: 0.2rem 0.5rem;
-        
     }
+
     nav .title {
         display: flex;
         padding: 0.5rem;
         align-items: center;
         justify-content: center;
     }
+
     .logo {
-        margin-left: 145px; 
+        margin-left: 145px;
     }
 }
