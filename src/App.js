@@ -10,6 +10,7 @@ import { Contact } from './Pages/Contact'
 import "./Css/Footer.css"
 import "./Css/Header.css"
 import "./Css/Home.css"
+import "./Css/Projects.css"
 
 
 const App = () => {
