@@ -1,0 +1,64 @@
+.projects-section1 {
+    height: 900px;
+    background-image: url('../Assets/mushroomhero.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.container1 {
+    font-size: 9em;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+.container1 h1 {
+    font-size: 1em;
+}
+.container1 h3 {
+    font-size: 40px;
+    padding-top: 5%;
+}
+
+.container2 {
+    width: 70rem;
+    padding: 5%;
+    margin-left: 5%;
+
+    font-weight: 300;;
+}
+.container2 p  {
+    margin-left: 5%;
+    font-size: 1.2em;
+}
+.container2 h5{
+    font-size: 2em;
+}
+.sub-container2 {
+    margin-left: 15%;
+}
+.sub-container3 {
+    margin-left: 30%;
+}
+container2 {
+    overflow: hidden;
+  }
+.sub-container1,
+.sub-container2,
+.sub-container3 {
+  opacity: 0;
+  transform: translateY(100%);
+  transition: opacity 2s, transform 1s;
+}
+.sub-container2 {
+    transition-delay: 1s;
+}
+  .sub-container3 {
+    transition-delay: 2s;
+  }
+  
+  .activate-motion .sub-container1,
+  .activate-motion .sub-container2,
+  .activate-motion .sub-container3 {
+    opacity: 1;
+    transform: translateY(0);
+  }
