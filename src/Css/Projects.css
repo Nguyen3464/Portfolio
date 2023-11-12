@@ -6,31 +6,31 @@
     color: white;
 }
 
-.container1 {
+.projects-section1-container1 {
     font-size: 9em;
     padding-top: 5%;
     padding-left: 5%;
 }
-.container1 h1 {
+.projects-section1-container1 h1 {
     font-size: 1em;
 }
-.container1 h3 {
+.projects-section1-container1 h3 {
     font-size: 40px;
     padding-top: 5%;
 }
 
-.container2 {
+.projects-section1-container2 {
     width: 70rem;
     padding: 5%;
     margin-left: 5%;
 
     font-weight: 300;;
 }
-.container2 p  {
+.projects-section1-container2 p  {
     margin-left: 5%;
     font-size: 1.2em;
 }
-.container2 h5{
+.projects-section1-container2 h5{
     font-size: 2em;
 }
 .sub-container2 {
@@ -62,3 +62,30 @@ container2 {
     opacity: 1;
     transform: translateY(0);
   }
+
+.projects-section1-container3 {
+    height: 800px;
+    text-align: center;
+    padding: 15%;
+    background-color: rgb(236, 233, 205);
+}
+.logo1 {
+    height: 100px;
+    width: 100px;
+    border-radius: 3px;
+}
+.projects-section1-container3 h1 {
+    color: goldenrod;
+    font-size: 5em;
+}
+.projects-section1-container3 h4 {
+    width: 500px;
+    margin-left: 25%;
+}
+.projects-section1-container4 {
+    height: 900px;
+    background-image: url('../Assets/mushroombackground1.png');
+    background-size: 210%;
+    background-position: center;
+    overflow: hidden;
+}
