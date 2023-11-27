@@ -1,5 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import logo from '../Assets/logo.jpeg'
+import mushroom1 from '../Assets/mushroom1.webp'
+import mushroom2 from '../Assets/mushroom2.jpeg'
+import mushroom3 from '../Assets/mushroom3.jpeg'
+
 
 export const Projects = () => {
   const [showMotionDiv, setShowMotionDiv] = useState(false);
@@ -40,8 +44,37 @@ export const Projects = () => {
             <h4>Unlock the secrets of cultivating your own gourmet mushrooms at our hands-on workshop. Learn the art and science of mushroom cultivation as we guide you through the process of inoculating logs with spores. Whether you're a gardening enthusiast, a nature lover, or just curious about the mysteries of mycology, this workshop is designed for all levels of experience.</h4>
           </div>
         <div className='projects-section1-container4'>
-          <div>
+          <h1 className='section4-h1'>Our Process</h1>
+          <div className='projects-section1-container4-subcontainer'>
+            <div className='image-card1'>
+              <div className='image'>
+                <img src={mushroom1} className='mushroom-images'/>
+              </div>
+              <div className='image-text'>
+                <h4>Preparation</h4>
+                <p>Prepare your mushroom logs by selecting a suitable hardwood, such as oak or maple. Cut the logs to the desired length, and then sterilize them to create a clean environment for the mushroom mycelium to thrive.</p>
+              </div>
+            </div>
+            <div className='image-card2'>
+              <div className='image2'>
+                <img src={mushroom2} className='mushroom-images'/>
+              </div>
+              <div className='image-text2'>
+                <h4>Inoculation</h4>
+                <p>During the workshop, learn the art of inoculation as you introduce mushroom spores or mycelium to the prepared logs. Witness the fascinating process of mycelial growth, the first step towards cultivating a variety of flavorful and nutritious mushrooms.</p>
+              </div>
             
+            </div>
+            <div className='image-card1'>
+              <div className='image'>
+                <img src={mushroom3} className='mushroom-images'/>
+              </div>
+              <div className='image-text'>
+                <h4>Preservation</h4>
+                <p>Explore proper storage techniques to maintain the health and vitality of your inoculated logs. Understand the ideal conditions, including temperature and humidity, to ensure a successful mushroom cultivation journey from inoculation to the harvest of your home-grown delights.</p>
+              </div>
+
+            </div>
           </div>
         </div>
       </div>
