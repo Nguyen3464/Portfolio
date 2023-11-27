@@ -89,3 +89,65 @@ container2 {
     background-position: center;
     overflow: hidden;
 }
+.section4-h1{
+    background-color: goldenrod;
+    text-align: center;
+    color:rgb(65, 65, 72);
+    font-size: 70px;
+}
+.projects-section1-container4-subcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 300px;
+    width: 350px;
+    margin-left: 13%;
+    margin-top: 2%;
+}
+.image-card1{
+    position: relative;
+    margin-top: 60%;
+    margin-right: 5%;
+
+}
+.image-card2{
+    position: relative;
+    margin-top: 80%;
+    margin-right: 5%;
+
+}
+.image{
+    position: absolute;
+    top: -200px;
+    left: 18px;
+    z-index: 2;
+}
+.image2{
+    position: absolute;
+    top: -200px;
+    left: 18px;
+    z-index: 2;
+}
+.mushroom-images{
+    object-fit: cover  ;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: white;
+    padding: 5%;
+
+}
+
+.image-text{
+    background-color: white;
+    text-align: center;
+    padding: 15%;
+    padding-top: 30%;
+}
+.image-text2{
+    background-color: white;
+    text-align: center;
+    padding: 15%;
+    padding-top: 30%;
+}
