@@ -223,9 +223,18 @@
     }
 
     .section6 {
-        height: 400px;
+        height: 00px;
         margin-top:-5%;
         background-size: 100%;
         background-repeat: no-repeat;
     }
+    .section7 {
+        background-size: 200% 100%;
+        padding: 10%;
+        background-color: rgb(236, 233, 205);
+        overflow: hidden;
+        height: 500px;
+    }
+    
+    
 }
