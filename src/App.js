@@ -6,11 +6,12 @@ import { About } from './Pages/About'
 import { Projects } from './Pages/Projects'
 import { Home } from './Pages/Home'
 import { Skills } from './Pages/Skills'
-import { Contact } from './Pages/Contact'
+import Contact from './Pages/Contact'
 import "./Css/Footer.css"
 import "./Css/Header.css"
 import "./Css/Home.css"
 import "./Css/Projects.css"
+import "./Css/Contact.css"
 
 
 const App = () => {
