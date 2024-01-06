@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import salad2 from "../Assets/salad2.jpg";
 import gnome1 from "../Assets/gnome1.png";
 import gnome2 from "../Assets/gnome2.png";
@@ -35,6 +35,17 @@ const Contact = () => {
     setShowflower1(true);
     setShowflower2(true);
   };
+
+   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+    setWindowWidth(window.innerWidth);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
   return (
     <div>
       <div className="contact-section">
@@ -54,10 +65,11 @@ const Contact = () => {
               />
             </FormGroup>
             <FormGroup>
-              <Label for="exampleText">Text Area</Label>
+              <Label for="exampleText">Message</Label>
               <Input
                 id="exampleText"
                 name="text"
+                placeholder="text"
                 type="textarea"
                 style={{ height: "140px" }}
               />
@@ -72,7 +84,13 @@ const Contact = () => {
             alt="gnome1"
             className="gnome1"
             initial={{ x: 0 }}
-            animate={showGnome1 ? { x: 200 } : { x: 0 }}
+            animate={
+              showGnome1
+                ? windowWidth <= 480
+                  ? { x: '10vw' }
+                  : { x: '10vw' }
+                : { x: 0 }
+            }
             transition={{
               duration: 4,
               type: "tween",
