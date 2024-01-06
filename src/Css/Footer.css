@@ -1,69 +1,10 @@
-/* .footer-portfolio {
-    color: rgb(65, 65, 72);
-    background-color: rgb(158, 182, 119);
-    padding-top: 20px;
-    z-index: 100;
-}
-
-.footer-portfolio:hover {
-    border-top: 5px solid rgb(183, 246, 76);
-}
-
-.download-link {
-    text-decoration: none;
-    color: rgb(65, 65, 72);
-    font-weight: 500;
-    display: block;
-    margin-top: 5px;
-    margin-left: -2px;
-    font-size: 20px;
-  }
-
-.download-icon {
-    margin-top: 8px;
-    margin-right: 11px;
-}
-  .download-link:hover {
-    color: rgb(183, 246, 76);
-  }
-
-.links{
-    display: flex;
-    justify-content: space-evenly ;
-    padding: 2%;
-    overflow: hidden;
-}
-
-.footer-icon {
-    color: rgb(65, 65, 72);
-    margin-right: 15px;
-    margin-top: 10px;
-    
-}
-
-.brand-icon {
-    height: 40px;
-    width: 40px;
-    color: rgb(65, 65, 72);
-    margin-right: 10px;
-}
-.brand-icon:hover{
-    color: rgb(183, 246, 76);
-}
-
-.top-link {
-    position: relative;
-    top: -30%;
-    left: -50%;
-    overflow: hidden;
-} */
 
 .footer-portfolio {
     background-color: rgb(158, 182, 119);
     padding-top: 20px;
     z-index: 100;
-    border-top: 5px solid transparent; /* Initial border */
-    transition: border-top 0.9s ease; /* Smooth border transition */
+    border-top: 5px solid transparent;
+    transition: border-top 0.9s ease;
 }
 
 .footer-portfolio:hover {
