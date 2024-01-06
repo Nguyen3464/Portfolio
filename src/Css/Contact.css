@@ -210,7 +210,7 @@
       }
       #gnome4{
         position: absolute;
-        top: -7%;
+        top: -11%;
         right: -17%;
         height: 200px;
         width: 600px;
@@ -278,7 +278,7 @@
       .sun {
         position: absolute;
         z-index: -5;
-        top: -5%;
+        top: -7%;
         left: -55%;
         height: 200px;
         width: 650px;

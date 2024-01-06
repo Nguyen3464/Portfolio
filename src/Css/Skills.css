@@ -1,0 +1,20 @@
+.container{
+    padding-top: 5%;
+
+    height: 100vh;
+}
+.images {
+    border: 2px solid black;
+    min-height: 200px
+}
+
+.textbox1 {
+    width: 100%; /* or any specific width you desire */
+    height: 200px;
+    font-size: 16px; /* or any font size you desire */
+    background-color: #ffffff; /* set background color */
+    padding: 20px; /* add padding for better visibility */
+    color: #000000;
+    z-index: 5;
+
+}
