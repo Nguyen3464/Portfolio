@@ -1,20 +1,39 @@
+
 .container{
     padding-top: 5%;
-
-    height: 100vh;
+    padding-bottom: 5%;
+    height: auto;
+    width: 100vw;
 }
+
 .images {
-    border: 2px solid black;
-    min-height: 200px
+    min-height: 50px;
+    object-fit: cover;
+    overflow: hidden;
+    padding: 10px;
+    background-color: whitesmoke;
+    -webkit-box-shadow: 13px 12px 17px -7px rgba(0,0,0,0.12);
+    -moz-box-shadow: 13px 12px 17px -7px rgba(0,0,0,0.12);
+    box-shadow: 13px 12px 17px -7px rgba(0,0,0,0.12);
 }
 
-.textbox1 {
-    width: 100%; /* or any specific width you desire */
+.box1 {
+    height: 150px;
+    object-fit: contain;
+}
+.box2 {
+    height: 175px;
+    object-fit: contain;
+}
+.box3 {
     height: 200px;
-    font-size: 16px; /* or any font size you desire */
-    background-color: #ffffff; /* set background color */
-    padding: 20px; /* add padding for better visibility */
-    color: #000000;
-    z-index: 5;
-
+    object-fit: contain;
+}
+.box4 {
+    height: 225px;
+    object-fit: contain;
+}
+.box5 {
+    height: 250px;
+    object-fit: contain;
 }
