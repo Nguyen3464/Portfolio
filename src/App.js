@@ -12,6 +12,7 @@ import "./Css/Header.css"
 import "./Css/Home.css"
 import "./Css/Projects.css"
 import "./Css/Contact.css"
+import "./Css/Skills.css"
 
 
 const App = () => {
