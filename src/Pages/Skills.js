@@ -25,10 +25,6 @@ import yarn from "../Assets/yarn.png"
 import node from "../Assets/nodejs.png"
 import macos from "../Assets/macos.png"
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
-import gis1 from "../Assets/gis1.jpeg"
-import gis2 from "../Assets/gis2.jpeg"
-import gis3 from "../Assets/gis3.jpeg"
-import gis4 from "../Assets/gis4.png"
 
 const images = [
   { key: "javascript", src: javascript, duration: 1.2, class: "box1" },
@@ -90,7 +86,7 @@ export const Skills = () => {
         </div>
         <div className="skills1">
           <h3>Requirement Gathering and User-Centric Focus</h3>
-          <p>Engaged in collaborative meetings with military personnel, officers, and decision-makers to understand their information needs. Led requirement gathering sessions for geospatial projects, ensuring alignment with end-user and operational objectives. Liaisoned between technical teams and end-users, to maintain comprehension between chain of command</p>
+          <p>Engaged in collaborative meetings with military personnel, officers, and decision-makers to understand their information needs. Led requirement gathering sessions for geospatial projects, ensuring alignment with end-user and operational objectives. Liaison between technical teams and end-users, to maintain comprehension between chain of command</p>
         </div>
         <div className="skills1">
           <h3>Data Handling and Database Knowledge</h3>
@@ -103,7 +99,7 @@ export const Skills = () => {
         </div>
         <div className="skills1">
           <h3>Agile Project Management</h3>
-          <p>Responded proactively to changing requirements and emerging priorities by adjusting the project backlog, and production goals. Held daily intelligence reviews to gather feedback on progress, changes to environmental conditions; In order to ensure adaptability, and accuracy in preperation of project delivery. Applied a flexible mindset, accommodating shifts in focus on time constraints based on the evolving needs of PIR "Priority Information Requests".
+          <p>Responded proactively to changing requirements and emerging priorities by adjusting the project backlog, and production goals. Held daily intelligence reviews to gather feedback on progress, changes to environmental conditions; In order to ensure adaptability, and accuracy in preparation of project delivery. Applied a flexible mindset, accommodating shifts in focus on time constraints based on the evolving needs of PIR "Priority Information Requests".
   </p>
         </div>
       </div>
