@@ -5,6 +5,7 @@
     z-index: 100;
     border-top: 5px solid transparent;
     transition: border-top 0.9s ease;
+    position: relative;
 }
 
 .footer-portfolio:hover {
@@ -58,4 +59,18 @@
     top: -30%;
     left: -50%;
     overflow: hidden;
+}
+.angleup {
+    position: absolute;
+    top: 170%;
+    right: -240px;
+    height: 60px;
+}
+@media (max-width: 480px) {
+    .angleup {
+        height: 50px;
+        position: absolute;
+        left: 110px;
+        top: 50px;
+    }
 }

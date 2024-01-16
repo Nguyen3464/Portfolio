@@ -45,12 +45,13 @@ export const Footer = () => {
           <a href="https://www.linkedin.com/in/nguyen-nguyen3464/" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faLinkedin} className='brand-icon'/>
           </a>
-          <a href="#home" className="top-link">
+          <a href="/" className="top-link">
             <FontAwesomeIcon
               icon={faAngleUp}
               bounce
               style={{ color: "#b7f64c" }}
               id="icon"
+              className='angleup'
             />
           </a>
         </div>
