@@ -1,15 +1,14 @@
-import React, { useState, useEffect } from 'react';
-import { Link, NavLink, useLocation } from 'react-router-dom';
-import logo from '../Assets/logo.jpeg';
+import React, { useState, useEffect } from "react";
+import { Link, NavLink, useLocation } from "react-router-dom";
+import logo from "../Assets/logo.jpeg";
 
 export const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const location = useLocation();
 
   useEffect(() => {
-
     window.scrollTo(0, 0);
-  }, [location.pathname]); 
+  }, [location.pathname]);
 
   return (
     <nav className="nav">
@@ -21,7 +20,7 @@ export const Header = () => {
         <span></span>
         <span></span>
       </div>
-      <ul className={menuOpen ? 'open' : ''}>
+      <ul className={menuOpen ? "open" : ""}>
         <li>
           <NavLink to="/about">About</NavLink>
         </li>

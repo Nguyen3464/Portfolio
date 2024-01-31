@@ -13,6 +13,7 @@ import './Css/Home.css';
 import './Css/Projects.css';
 import './Css/Contact.css';
 import './Css/Skills.css';
+import './Css/About.css'
 
 const App = () => {
   return (

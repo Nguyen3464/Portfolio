@@ -14,7 +14,6 @@ import mushroom2 from "../Assets/mushroom2.png";
 import { Label, Form, FormGroup, Input } from "reactstrap";
 import { motion } from "framer-motion";
 
-
 const Contact = () => {
   const [sunVisible, setSunVisible] = useState(false);
   const [showGnome1, setShowGnome1] = useState(false);
@@ -36,7 +35,7 @@ const Contact = () => {
     setShowflower2(true);
   };
 
-   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {
     const handleResize = () => {
@@ -87,8 +86,8 @@ const Contact = () => {
             animate={
               showGnome1
                 ? windowWidth <= 480
-                  ? { x: '10vw' }
-                  : { x: '10vw' }
+                  ? { x: "10vw" }
+                  : { x: "10vw" }
                 : { x: 0 }
             }
             transition={{
@@ -166,7 +165,7 @@ const Contact = () => {
             src={sun}
             alt="sun"
             className="sun"
-            initial={{ x: -1000, opacity: 0}}
+            initial={{ x: -1000, opacity: 0 }}
             animate={{ x: sunVisible ? 0 : -1000, opacity: 1 }}
             transition={{ duration: 3, ease: "easeOut" }}
           />
