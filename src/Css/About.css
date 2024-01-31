@@ -1,0 +1,26 @@
+.certs-wrapper,
+.awards-wrapper,
+.loc-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center; /* Center images horizontally */
+    background: whitesmoke;
+  }
+  
+  .certs img,
+  .awards img,
+  .loc img {
+    max-width: 100%; /* Make images responsive */
+    height: auto; /* Ensure aspect ratio is maintained */
+    padding: 5%;
+    margin-top: 5%;
+    border-radius: 15px;
+    -webkit-box-shadow: 13px 12px 17px -7px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 13px 12px 17px -7px rgba(0, 0, 0, 0.12);
+    box-shadow: 13px 12px 17px -7px rgba(0, 0, 0, 0.12);
+    background: white;
+  }
+  
+  /* Add more styling as needed */
