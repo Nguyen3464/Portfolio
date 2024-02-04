@@ -1,3 +1,5 @@
+
+
 .section2 p,
 .img1,
 .img2,
@@ -211,7 +213,7 @@
     90deg,
     rgba(245, 245, 245) 0%,
     rgba(236, 233, 205) 35%,
-    rgba(158, 182, 119) 100%
+    rgba(158, 182, 119,.9) 100%
   );
   border: 1px solid rgb(65, 65, 72, 0.2);
   border-radius: 10px;
@@ -267,120 +269,163 @@
   text-align: center;
 }
 
+
+
+/* Media Query for Mobile */
 @media (max-width: 480px) {
+  /* Section 1 */
   .section1 {
-    height: 600px;
+    height: 530px; 
+    background-size: cover;
+    background-position: cover;
+    background-repeat: no-repeat;
   }
+
   .section1-p,
   .section1-h1 {
-    margin-left: 6%;
-    position: relative;
-    top: 2%;
-    width: 400px;
-    font-size: 50px;
+    font-size: 37px;
+    top: 4%;
+    width: 100%;
+    margin-left: 10%;
   }
-  .headshot {
-    height: 400px;
-    width: 400px;
-    top: 50px;
+
+  /* Section 2 */
+  .section2 {
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 5% 10%;
   }
-  .section2 p {
-    position: relative;
-    top: -550px;
+
+  .section2-container,
+  .veg1-container {
+    width: 100%;
   }
+
   .veg1 {
     position: relative;
-    left: -100px;
-    bottom: 350px;
-    height: 600px;
-    width: 600px;
+    bottom: 1%;
+    right: 50%;
+    height: 400px;
+    width: 200%;
+    z-index: 2;
   }
-  .section2 {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 5%;
-    height: 800px;
+
+  .headshot {
+    position: relative;
+    top: 30%;
+    height: 350px;
+    width: 100%;
+    border-radius: 50%;
+    object-position: center -10px;
   }
+
+  .section2 p,
+  .boh-intro-text-box p {
+    position: relative;
+    bottom: 80%;
+    font-size: 16px;
+    padding: 3%;
+  }
+
+  /* Section 3 */
   .section3 {
-    padding: 8%;
+    padding: 5%;
   }
 
   .section3-container1 {
     font-size: 16px;
-    font-weight: 600;
   }
+
   .motion-div-1,
   .motion-div-2,
   .motion-div-3 {
-    padding: 5%;
-    width: 400px;
+    width: 100%;
+    text-align: center;
   }
 
+  /* Section 4 */
   .section4 {
     height: auto;
   }
 
   .section4-container1 {
     width: 100%;
-    margin-top: 5%;
   }
 
   .img1,
   .img2,
   .img3 {
-    height: 300px;
-    width: 400px; /* Add the unit (e.g., px) here */
+
+    height: 200px;
+    margin-top: 5%;
     margin-bottom: 5%;
-    margin-left: 5%;
-    border-radius: 10px; /* Add the border-radius property */
+    border-radius: 10px;
+    background-repeat: no-repeat;
   }
-  .process-image,
+
+  /* Process Container */
+
   .processes {
     width: 100%;
-    margin-top: 5%;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+
   }
+
+  .process-image{
+    background-image: none;
+    display: none;
+  }
+
   .process-step1,
   .process-step2,
   .process-step3,
   .process-step4,
   .process-step5,
   .process-step6 {
-    margin: 10px;
-    margin-bottom: 19%;
-    padding-top: 5%;
+    margin-right: 5%;
+    min-height: 350px;
+    min-width: 300px;
+    padding: 10%;
+    text-align: center;
+    margin-top: 5%;
   }
+
   .process-step1,
   .process-step2,
   .process-step3,
   .process-step4,
   .process-step5,
   .process-step6 h2 {
-    font-size: 40px;
+    font-size: 24px;
   }
+
   .process-step1,
   .process-step2,
   .process-step3,
   .process-step4,
   .process-step5,
   .process-step6 p {
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
   }
 
+  /* Section 6 */
   .section6 {
-    height: 500px;
-    background-size: 100%;
-    background-repeat: no-repeat;
+    height: auto;
+    background-size: cover;
   }
+
   .boh-intro-image-box {
-    background-size: 180%;
+    background-size: 120%;
     height: 300px;
   }
+
   .boh-intro-image-box,
   .boh-intro-text-box {
-    width: 500px;
+    width: 100%;
     padding: 5%;
-    padding-top: 10%;
-    font-size: 25px;
+    font-size: 20px;
   }
 }

@@ -27,7 +27,7 @@ export const Home = () => {
         </div>
         <div className="section2-container">
           <p>
-            As a Front-end Developer im passionate about crafting seamless user
+            As a Front-end Developer im passionate about crafting user
             experiences with HTML, CSS, and React. My focus on responsive design
             ensures optimal interactions across devices. Proficient in modern
             front-end frameworks, I combine creativity and precision to deliver
@@ -170,7 +170,7 @@ export const Home = () => {
           <div className="boh-intro-text-box">
             <p>
               As a backend developer, I use JavaScript and Ruby on Rails with
-              ActiveRecord for seamless database integrations. Leveraging
+              ActiveRecord for database integrations. Leveraging
               PostgreSQL, I design, query, and optimize databases for data
               integrity and performance. Committed to code quality, I practice
               test-driven development with Jest and RSpec, ensuring reliable,
