@@ -63,7 +63,7 @@ export const Home = () => {
               <h2>Research and Competitive Analysis</h2>
               <p>
                 Conduct market research to understand industry-trends, and
-                competitors. Analyze the competitors sites to identify strengths
+                competitors. Analyze the  competitors sites to identify strengths
                 and weaknesses.
               </p>
             </motion.div>
