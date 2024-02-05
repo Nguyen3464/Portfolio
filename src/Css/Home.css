@@ -295,6 +295,7 @@
     flex-direction: column;
     align-items: center;
     padding: 5% 5% 10%;
+    background-color: blue;
   }
 
   .section2-container,
