@@ -1,5 +1,4 @@
 
-
 .section2 p,
 .img1,
 .img2,
@@ -29,12 +28,12 @@
 
 .section1-p,
 .section1-h1 {
-  width: 400px;
+
   color: rgb(183, 246, 76);
-  font-size: 43px;
-  margin-left: 20%;
+  font-size: 50px;
   position: relative;
   top: 7%;
+  left: 20%
 }
 
 .section1,
@@ -245,8 +244,8 @@
 .boh-intro-container {
   display: flex;
   flex-wrap: wrap;
-  height: 600px;
-  padding-top: 7%;
+  height: auto;
+ 
 }
 
 .boh-intro-image-box {
@@ -264,7 +263,6 @@
   align-items: center;
   width: 50%;
   box-sizing: border-box;
-  padding: 0 5% 10%;
   font-size: 25px;
   text-align: center;
 }
@@ -274,6 +272,9 @@
 /* Media Query for Mobile */
 @media (max-width: 480px) {
   /* Section 1 */
+  .body{
+    width:100%;
+  }
   .section1 {
     height: 530px; 
     background-size: cover;
@@ -285,8 +286,8 @@
   .section1-h1 {
     font-size: 37px;
     top: 4%;
-    width: 100%;
-    margin-left: 10%;
+    left: 5%;
+    margin-right: 10%;
   }
 
   /* Section 2 */
@@ -303,13 +304,16 @@
 
   .veg1 {
     position: relative;
-    bottom: 1%;
-    right: 50%;
-    height: 400px;
-    width: 200%;
+    top: -6%;
+    right: 0;
+    height: 50%;
+    width: 100%;
+    max-width: 900px;
     z-index: 2;
-  }
+    margin: 0 auto;
+    overflow: hidden;
 
+  }
   .headshot {
     position: relative;
     top: 30%;
@@ -322,7 +326,7 @@
   .section2 p,
   .boh-intro-text-box p {
     position: relative;
-    bottom: 80%;
+    bottom: 60%;
     font-size: 16px;
     padding: 3%;
   }

@@ -15,7 +15,7 @@ export const Footer = () => {
   return (
     <div className="footer-portfolio">
       <div className="links">
-        <div>
+        <div className="links1">
           <h5>
             <FontAwesomeIcon icon={faHouse} className="footer-icon" />
             Robbinsdale, Minnesota

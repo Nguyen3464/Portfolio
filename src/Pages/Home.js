@@ -13,7 +13,7 @@ export const Home = () => {
   };
 
   return (
-    <div>
+    <div className="body">
       <div className="section1">
         <h1 className="section1-h1">My names Nguyen Nguyen</h1>
         <p className="section1-p">
@@ -57,7 +57,7 @@ export const Home = () => {
             <motion.div
               initial={{ opacity: 0, x: -60 }}
               animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 3 }}
+              transition={{ duration: 2 }}
               className="motion-div-2"
             >
               <h2>Research and Competitive Analysis</h2>
@@ -73,7 +73,7 @@ export const Home = () => {
             <motion.div
               initial={{ opacity: 0, x: -80 }}
               animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 5 }}
+              transition={{ duration: 3 }}
               className="motion-div-1"
             >
               <h2>Plan Information Architecture</h2>

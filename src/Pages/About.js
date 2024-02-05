@@ -7,13 +7,14 @@ import aamcert from "../Assets/aamcert.jpeg"
 import ntc from "../Assets/ntc.jpeg"
 import loc1 from "../Assets/loc1.jpeg"
 import loc2 from "../Assets/loc2.jpeg"
+import learn from "../Assets/learn.png"
 
 export const About = () => {
   return (
     <>
       <div className="certs-wrapper">
         <div className="certs">
-          <h1>LEARN Academy</h1>
+          <img src={learn} alt="learn academy certification"/>
         </div>
         <div className="certs">
           <img src={certjs} alt=" Javascript Certification" />
