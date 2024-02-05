@@ -1,41 +1,25 @@
 import React from "react";
-import { motion } from "framer-motion";
-import { useInView } from "react-intersection-observer";
-import headshot from "../Assets/headshot.jpeg";
-import veg1 from "../Assets/veg1.png";
+// import { motion } from "framer-motion";
+// import { useInView } from "react-intersection-observer";
+import Section1 from "../Components/Home/Section1/Section1";
+import Section2 from "../Components/Home/Section2/Section2";
+import Section3 from "../Components/Home/Section3/Section3"
 
 export const Home = () => {
-  const [sectionRef, sectionInView] = useInView({
-    triggerOnce: true,
-  });
-  const AnimateOnInView = ({ inView, children }) => {
-    return inView ? children : null;
-  };
+  // const [sectionRef, sectionInView] = useInView({
+  //   triggerOnce: true,
+  // });
+  // const AnimateOnInView = ({ inView, children }) => {
+  //   return inView ? children : null;
+  // };
 
   return (
-    <div className="body">
-      <div className="section1">
-        <h1 className="section1-h1">My names Nguyen Nguyen</h1>
-        <p className="section1-p">
-          Full Stack Web <br></br>Developer
-        </p>
-      </div>
-      <div className="section2">
-        <div className="veg1-container">
-          <img className="headshot" src={headshot} />
-          <img className="veg1" src={veg1} />
-        </div>
-        <div className="section2-container">
-          <p>
-            As a Front-end Developer im passionate about crafting user
-            experiences with HTML, CSS, and React. My focus on responsive design
-            ensures optimal interactions across devices. Proficient in modern
-            front-end frameworks, I combine creativity and precision to deliver
-            visually appealing and intuitive interfaces.
-          </p>
-        </div>
-      </div>
-      <div className="section3" ref={sectionRef}>
+    <div>
+      <Section1 />
+      <Section2 />
+      <Section3 />
+
+      {/* <div className="section3" ref={sectionRef}>
         <div className="section3-container1">
           <AnimateOnInView inView={sectionInView}>
             <motion.div
@@ -63,7 +47,7 @@ export const Home = () => {
               <h2>Research and Competitive Analysis</h2>
               <p>
                 Conduct market research to understand industry-trends, and
-                competitors. Analyze the  competitors sites  to identify strengths
+                competitors. Analyze the  competitors sites to identify strengths
                 and weaknesses.
               </p>
             </motion.div>
@@ -85,7 +69,7 @@ export const Home = () => {
             </motion.div>
           </AnimateOnInView>
         </div>
-      </div>
+      </div> */}
       <div className="section4">
         <div className="section4-container1">
           <div className="img-container">

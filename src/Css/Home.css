@@ -1,5 +1,4 @@
 
-.section2 p,
 .img1,
 .img2,
 .img3,
@@ -19,77 +18,14 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.section1 {
-  height: 500px;
-  background-image: url("../Assets/home.jpeg");
-  background-size: cover;
-  background-position: center;
-}
-
-.section1-p,
-.section1-h1 {
-
-  color: rgb(183, 246, 76);
-  font-size: 50px;
-  position: relative;
-  top: 7%;
-  left: 20%
-}
-
 .section1,
 .section5-container1 {
   width: 100%;
   height: 700px;
 }
 
-.section2 {
-  display: flex;
-  flex-direction: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 700px;
-  padding-bottom: 5%;
-}
-.section2-container {
-  height: 700px;
-  width: 400px;
-  display: flex;
-  align-items: center;
-  padding-top: 20%;
-}
-.veg1-container {
-  height: 700px;
-  width: 400px;
-  background-position: center;
-}
-.veg1 {
-  position: relative;
-  bottom: 690px;
-  right: -350px;
-  height: 900px;
-  width: 900px;
-  z-index: 2;
-}
-.headshot {
-  position: relative;
-  top: 140px;
-  height: 500px;
-  width: 500px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-.section2 p,
-.boh-intro-text-box p {
-  text-align: center;
-  font-size: 17px;
-  color: rgb(65, 65, 72);
-  border: 1px solid rgb(65, 65, 72, 0.2);
-  border-radius: 10px;
-  background-color: whitesmoke;
-  padding: 5%;
-}
 
-.section3 {
+/* .section3 {
   height: 750px;
   width: 100%;
   display: flex;
@@ -99,9 +35,9 @@
   background-size: 110%;
   background-position: center;
   overflow: hidden;
-}
+} */
 
-.motion-div-1,
+/* .motion-div-1,
 .motion-div-3 {
   border: solid rgb(138, 113, 87) 2px;
   color: rgb(138, 113, 87);
@@ -128,7 +64,7 @@
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 3%;
-}
+} */
 
 .section4 {
   height: 700px;
@@ -269,69 +205,12 @@
 
 
 
-/* Media Query for Mobile */
+
 @media (max-width: 480px) {
-  /* Section 1 */
-  .body{
-    width:100%;
-  }
-  .section1 {
-    height: 530px; 
-    background-size: cover;
-    background-position: cover;
-    background-repeat: no-repeat;
-  }
 
-  .section1-p,
-  .section1-h1 {
-    font-size: 37px;
-    top: 4%;
-    left: 5%;
-    margin-right: 10%;
-  }
 
-  /* Section 2 */
-  .section2 {
-    flex-direction: column;
-    align-items: center;
-    padding: 5% 5% 10%;
-    background-color: blue;
-  }
-
-  .section2-container,
-  .veg1-container {
-    width: 100%;
-  }
-
-  .veg1 {
-    position: relative;
-    top: -6%;
-    right: 0;
-    height: 50%;
-    width: 100%;
-    max-width: 900px;
-    z-index: 2;
-    margin: 0 auto;
-    overflow: hidden;
-
-  }
-  .headshot {
-    position: relative;
-    top: 30%;
-    height: 350px;
-    width: 100%;
-    border-radius: 50%;
-    object-position: center -10px;
-  }
-
-  .section2 p,
-  .boh-intro-text-box p {
-    position: relative;
-    bottom: 60%;
-    font-size: 16px;
-    padding: 3%;
-  }
-
+  
+  
   /* Section 3 */
   .section3 {
     padding: 5%;

@@ -14,6 +14,9 @@ import './Css/Projects.css';
 import './Css/Contact.css';
 import './Css/Skills.css';
 import './Css/About.css'
+import './Components/Home/Section1/Section1.css'
+import './Components/Home/Section2/Section2.css'
+import './Components/Home/Section3/Section3.css'
 
 const App = () => {
   return (
