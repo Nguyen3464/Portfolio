@@ -8,7 +8,7 @@ nav {
   align-items: center;
   background-color: rgb(158, 182, 119);
   color: rgb(65, 65, 72);
-  position: sticky;
+  /* position: sticky; */
   top: 0;
   z-index: 10;
   border-bottom: 5px solid transparent;
@@ -97,6 +97,7 @@ nav .menu span {
     flex-direction: column;
     width: 100%;
     margin-bottom: 0.25rem;
+
   }
 
   nav ul.open {
@@ -121,7 +122,8 @@ nav .menu span {
     justify-content: center;
   }
 
-  .logo {
-    margin-left: 193px;
+  nav .title {
+    text-align: center;
+    margin: 0 auto;
   }
 }

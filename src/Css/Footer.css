@@ -1,6 +1,5 @@
 .footer-portfolio {
   background-color: rgb(158, 182, 119);
-  padding-top: 20px;
   z-index: 100;
   border-top: 5px solid transparent;
   transition: border-top 0.9s ease;
@@ -25,21 +24,16 @@
 }
 
 .links {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 2%;
-  overflow: hidden;
+padding: 2%;
 }
 
 .footer-icon,
 .download-icon {
   color: rgb(65, 65, 72);
   margin-right: 15px;
-  margin-top: 10px;
 }
 
 .download-icon {
-  margin-top: 8px;
   margin-right: 11px;
 }
 
@@ -61,16 +55,18 @@
   overflow: hidden;
 }
 .angleup {
-  position: absolute;
-  top: 170%;
-  right: -240px;
+  position: relative;
+  right: -50%;
+  top: 13px;
   height: 60px;
+  margin-top: -5%;
+  z-index: 20;
 }
 @media (max-width: 480px) {
   .angleup {
-    height: 50px;
-    position: absolute;
-    left: 110px;
-    top: 50px;
+    height: 60px;
+    position: relative;
+    top: 14px;
   }
+
 }
