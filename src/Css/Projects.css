@@ -117,18 +117,6 @@ container2 {
   align-items: center;
 }
 
-.mushroom-images1,
-.mushroom-images2,
-.mushroom-images3 {
-  object-fit: cover;
-  height: 300px;
-  width: 300px;
-  border-radius: 50%;
-  overflow: hidden;
-  background-color: white;
-  padding: 5%;
-}
-
 .image-text1,
 .image-text2,
 .image-text3 {
@@ -147,6 +135,19 @@ container2 {
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+.image-container{
+  height: 300px;
+  width: 300px;
+}
+.image-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: white;
+  padding: 5%;
+}
 @media (max-width: 480px) {
   .projects-section1 {
     height: auto;
@@ -280,4 +281,5 @@ left: -1.7%;
     top: -14%;
     z-index: -1;
   }
+
 }

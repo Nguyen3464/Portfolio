@@ -1,0 +1,84 @@
+.section3 {
+    height: 850px;
+    width: 100%;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-evenly;
+    padding-left: 3.5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url("Assets/veg3.jpeg");
+    background-size: 110%;
+    background-position: center;
+    overflow: hidden;
+  }
+  .list-container{
+    height: auto;
+    width: 600px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 3%;
+  }
+
+.motion-div-1,
+.motion-div-3 {
+  border: solid rgb(138, 113, 87) 2px;
+  color: rgb(138, 113, 87);
+  background-color: white;
+  margin-top: 5%;
+  border-radius: 10px;
+  padding: 5%;
+}
+
+.motion-div-2 {
+  background-color: rgb(138, 113, 87);
+  color: white;
+  margin-top: 5%;
+  border-radius: 10px;
+  padding: 5%;
+}
+
+.motion-div-1,
+.motion-div-2,
+.motion-div-3 {
+    -webkit-box-shadow: 13px 12px 17px -7px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 13px 12px 17px -7px rgba(0, 0, 0, 0.4);
+    box-shadow: 13px 12px 17px -7px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.wood-box {
+    height: 810px;
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 2.4%;
+    padding-top: 2.4%;
+    padding-bottom: 9.8%;
+}
+.wood{
+    height: 100%;
+    width: 100%;
+    border-radius: 7px;
+}
+@media (max-width: 480px) {
+    .section3 {
+        padding: 5%;
+        display: block;
+        height: auto;
+      }
+    
+      .list-container {
+        font-size: 16px;
+        width: auto;
+      }
+      .wood-box{
+        height: 300px;
+        width: 351px;
+        padding: 0;
+        padding-top: 3%;
+      }
+
+    
+}
