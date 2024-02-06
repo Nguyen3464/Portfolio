@@ -66,7 +66,7 @@
   padding-bottom: 3%;
 } */
 
-.section4 {
+/* .section4 {
   height: 700px;
   width: 100%;
   background-size: 100%;
@@ -82,9 +82,9 @@
   flex-wrap: wrap;
   padding: 5%;
   margin-top: 2%;
-}
+} */
 
-.img1,
+/* .img1,
 .img2,
 .img3 {
   height: 500px;
@@ -93,9 +93,9 @@
   background-position: center;
   overflow: hidden;
   border-radius: 20px;
-}
+} */
 
-.img1 {
+/* .img1 {
   background-image: url("../Assets/veg4.jpg");
 }
 
@@ -105,7 +105,7 @@
 
 .img3 {
   background-image: url("../Assets/veg6.jpg");
-}
+} */
 .process-container {
   display: flex;
   flex-wrap: wrap;
@@ -126,7 +126,7 @@
   height: 500px;
   width: 49%;
   overflow-y: auto;
-  background-image: url("../Assets/houseplant.jpeg");
+  /* background-image: url("../Assets/houseplant.jpeg"); */
   background-size: cover;
   padding: 5%;
   scrollbar-width: thin;

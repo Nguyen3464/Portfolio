@@ -1,5 +1,5 @@
 .section3 {
-    height: 850px;
+    height: auto;
     width: 100%;
     display: flex;
     flex-direction: wrap;
@@ -7,38 +7,56 @@
     padding-left: 3.5%;
     padding-top: 5%;
     padding-bottom: 5%;
-    background-image: url("Assets/veg3.jpeg");
-    background-size: 110%;
+    background-color: rgb(236, 233, 205);
+    /* background-image: url("Assets/veg3.jpeg"); */
+    /* background-size: 110%;
     background-position: center;
-    overflow: hidden;
+    overflow: hidden; */
   }
-  .list-container{
-    height: auto;
-    width: 600px;
-    text-align: center;
-    font-size: 17px;
-    font-weight: 600;
-    display: flex;
-    flex-wrap: wrap;
-    padding-bottom: 3%;
-  }
+  .list-container {
+    width: 100%;
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow-x: auto;   /* Enable horizontal scrolling */
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    padding: 5%;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+    border-radius: 10px;
+    padding: ;
+}
+
+.list-item {
+    display: inline-block; /* Ensure items stay on the same line */
+    margin-right: 20px;    /* Adjust spacing between items */
+}
+
 
 .motion-div-1,
-.motion-div-3 {
+.motion-div-3,
+.motion-div-5,
+.motion-div-7,
+.motion-div-9 {
   border: solid rgb(138, 113, 87) 2px;
   color: rgb(138, 113, 87);
   background-color: white;
   margin-top: 5%;
   border-radius: 10px;
   padding: 5%;
+  width: 30%;
+  height: auto;
 }
 
-.motion-div-2 {
+.motion-div-2, 
+.motion-div-4,
+.motion-div-6,
+.motion-div-8 {
   background-color: rgb(138, 113, 87);
   color: white;
   margin-top: 5%;
   border-radius: 10px;
   padding: 5%;
+  width: 30%;
+  height: auto;
 }
 
 .motion-div-1,
@@ -56,11 +74,14 @@
     padding-right: 2.4%;
     padding-top: 2.4%;
     padding-bottom: 9.8%;
+    /* background-color: whitesmoke; */
+
 }
 .wood{
     height: 100%;
     width: 100%;
     border-radius: 7px;
+
 }
 @media (max-width: 480px) {
     .section3 {
@@ -74,10 +95,7 @@
         width: auto;
       }
       .wood-box{
-        height: 300px;
-        width: 351px;
-        padding: 0;
-        padding-top: 3%;
+display: none
       }
 
     
