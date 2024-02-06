@@ -79,7 +79,7 @@ export const Skills = () => {
       <div className="geoint">
         <h1>Geospatial Intelligence Imagery Analyst</h1>
         <div className="army">
-          <img classname="army-image" src={army} />
+          <img classname="army-image" src={army} alt="" />
         </div>
       </div>
       <div className="geoint-skills-container">
