@@ -41,10 +41,10 @@ export const About = () => {
 
       <div className="loc-wrapper">
         <div className="loc">
-          <img src={loc1} alt="Chief Gram's award" height="300"/>
+          <img src={loc1} alt="" height="300"/>
         </div>
         <div className="loc">
-          <img src={loc2} alt="Chief Gram's award" height="300"/>
+          <img src={loc2} alt="" height="300"/>
         </div>
       </div>
 

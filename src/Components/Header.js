@@ -13,7 +13,7 @@ export const Header = () => {
   return (
     <nav className="nav">
       <Link to="/" className="title">
-        <img src={logo} alt="logo" className="logo" />
+        <img src={logo} alt="" className="logo" />
       </Link>
       <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
         <span></span>

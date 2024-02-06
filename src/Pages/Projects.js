@@ -72,7 +72,7 @@ export const Projects = () => {
           <div className="projects1-section3-container">
             <div className="image-card1">
               <div className="image-container">
-                <img src={mushroom1} />
+                <img src={mushroom1} alt=""/>
               </div>
               <div className="image-text1">
                 <h4>Preparation</h4>
@@ -86,7 +86,7 @@ export const Projects = () => {
             </div>
             <div className="image-card2">
               <div className="image-container">
-                <img src={mushroom2} />
+                <img src={mushroom2} alt=""/>
               </div>
               <div className="image-text2">
                 <h4>Inoculation</h4>
@@ -101,7 +101,7 @@ export const Projects = () => {
             </div>
             <div className="image-card1">
               <div className="image-container">
-                <img src={mushroom3} />
+                <img src={mushroom3} alt=""/>
               </div>
               <div className="image-text3">
                 <h4>Preservation</h4>
