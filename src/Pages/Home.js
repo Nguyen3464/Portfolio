@@ -4,6 +4,7 @@ import React from "react";
 import Section1 from "../Components/Home/Section1/Section1";
 import Section2 from "../Components/Home/Section2/Section2";
 import Section3 from "../Components/Home/Section3/Section3"
+import Section4 from "../Components/Home/Section4/Section4";
 
 export const Home = () => {
   // const [sectionRef, sectionInView] = useInView({
@@ -18,6 +19,7 @@ export const Home = () => {
       <Section1 />
       <Section2 />
       <Section3 />
+      {/* <Section4 /> */}
 
       {/* <div className="section3" ref={sectionRef}>
         <div className="section3-container1">
@@ -86,32 +88,32 @@ export const Home = () => {
       <div className="process-container">
         <div className="process-image"></div>
         <div className="processes">
-          <div className="process-step1">
+          {/* <div className="process-step1">
             <h2>Wireframing and Prototyping</h2>
             <p>
               Create visual representations of page layouts and content
               placement through wireframes. Firm understanding of UX/UI design
               principles, knowledge of information architecture.
             </p>
-          </div>
-          <div className="process-step2">
+          </div> */}
+          {/* <div className="process-step2">
             <h2>Design Mockups</h2>
             <p>
-              Design the visual elements of the website, including colors,
+              "Design the visual elements of the website, including colors,
               typography, images, and branding elements. Collaboration with
               designers to maintain congruency of technical implementation and
-              alignments with the design vision.
+              alignments with the design vision."
             </p>
-          </div>
-          <div className="process-step3">
+          </div> */}
+          {/* <div className="process-step3">
             <h2>Content Creation and Gathering</h2>
             <p>
-              Develop or gather content such as text, images, videos, and
+             "Develop or gather content such as text, images, videos, and
               multimedia elements. Conduct content strategy research to refine
-              both the user experience and technical aspects of the design.
+              both the user experience and technical aspects of the design."
             </p>
-          </div>
-          <div className="process-step4">
+          </div> */}
+          {/* <div className="process-step4">
             <h2>Development and Coding</h2>
             <p>
               Translate design mockups into functional code. Implement features
@@ -121,8 +123,8 @@ export const Home = () => {
               implementation of features. Understands UI archetitural principles
               for creating intuitive and visually appealing interface.
             </p>
-          </div>
-          <div className="process-step5">
+          </div> */}
+          {/* <div className="process-step5">
             <h2>Testing and Quality Assurance</h2>
             <p>
               Thoroughly test the website for functionality, usability, and
@@ -132,8 +134,8 @@ export const Home = () => {
               Rspec. Engages in gathering feedback to make iterative
               improvements.
             </p>
-          </div>
-          <div className="process-step6">
+          </div> */}
+          {/* <div className="process-step6">
             <h2>Responsive Design</h2>
             <p>
               Ensure the website is responsive and adapts to various screen
@@ -143,7 +145,7 @@ export const Home = () => {
               to address responsiveness in order to provide reliable and adative
               design.
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
 
