@@ -19,7 +19,7 @@
 /* Media Query for Mobile */
 @media (max-width: 480px) {
   .section1 {
-    height: 844px;
+    height: 800px;
     background-repeat: no-repeat;
   }
 

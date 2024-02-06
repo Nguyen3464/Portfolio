@@ -72,7 +72,7 @@ export const Home = () => {
           </AnimateOnInView>
         </div>
       </div> */}
-      <div className="section4">
+      {/* <div className="section4">
         <div className="section4-container1">
           <div className="img-container">
             <div className="img1"></div>
@@ -87,7 +87,7 @@ export const Home = () => {
       </div>
       <div className="process-container">
         <div className="process-image"></div>
-        <div className="processes">
+        <div className="processes"> */}
           {/* <div className="process-step1">
             <h2>Wireframing and Prototyping</h2>
             <p>
@@ -146,8 +146,8 @@ export const Home = () => {
               design.
             </p>
           </div> */}
-        </div>
-      </div>
+
+
 
       <div className="section6">add front end imagry</div>
       <div className="back-of-house">

@@ -1,102 +1,82 @@
 .section3 {
-    height: auto;
-    width: 100%;
-    display: flex;
-    flex-direction: wrap;
-    justify-content: space-evenly;
-    padding-left: 3.5%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    background-color: rgb(236, 233, 205);
-    /* background-image: url("Assets/veg3.jpeg"); */
-    /* background-size: 110%;
-    background-position: center;
-    overflow: hidden; */
-  }
-  .list-container {
-    width: 100%;
-    white-space: nowrap; /* Prevent text wrapping */
-    overflow-x: auto;   /* Enable horizontal scrolling */
-    overflow-y: hidden; /* Hide vertical scrollbar */
-    padding: 5%;
-    scrollbar-width: thin;
-    scrollbar-color: transparent transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2%;
+  background-image: url("Assets/veg3.jpeg");
+  background-size: 200%;
+  background-position: center;
+  height: auto;
+  overflow-x: auto;
+}
+.header{
+  background-image: url("Assets/houseplant.jpeg");
+  width: 100%;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  object-fit: cover;
+}
+.card-container{
+
+  display: flex;
+  overflow-x: auto;
+  padding: 5%;
+  overflow: hidden;
+  width: 80%;
+  height: auto;
+}
+.card-container::-webkit-scrollbar {
+  display: none;
+}
+
+  .card1,
+  .card3,
+  .card5,
+  .card7,
+  .card9,
+  .card2,
+  .card4,
+  .card6,
+  .card8{
+    border: solid rgb(138, 113, 87) 2px;
     border-radius: 10px;
-    padding: ;
-}
-
-.list-item {
-    display: inline-block; /* Ensure items stay on the same line */
-    margin-right: 20px;    /* Adjust spacing between items */
-}
-
-
-.motion-div-1,
-.motion-div-3,
-.motion-div-5,
-.motion-div-7,
-.motion-div-9 {
-  border: solid rgb(138, 113, 87) 2px;
-  color: rgb(138, 113, 87);
-  background-color: white;
-  margin-top: 5%;
-  border-radius: 10px;
-  padding: 5%;
-  width: 30%;
-  height: auto;
-}
-
-.motion-div-2, 
-.motion-div-4,
-.motion-div-6,
-.motion-div-8 {
-  background-color: rgb(138, 113, 87);
-  color: white;
-  margin-top: 5%;
-  border-radius: 10px;
-  padding: 5%;
-  width: 30%;
-  height: auto;
-}
-
-.motion-div-1,
-.motion-div-2,
-.motion-div-3 {
+    padding: 2%;
+    min-width: 300px;
+    margin-right: 5%;
     -webkit-box-shadow: 13px 12px 17px -7px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 13px 12px 17px -7px rgba(0, 0, 0, 0.4);
     box-shadow: 13px 12px 17px -7px rgba(0, 0, 0, 0.4);
     border: 1px solid rgba(0, 0, 0, 0.1);
-}
-.wood-box {
-    height: 810px;
-    width: 50%;
-    padding-left: 5%;
-    padding-right: 2.4%;
-    padding-top: 2.4%;
-    padding-bottom: 9.8%;
-    /* background-color: whitesmoke; */
-
-}
-.wood{
-    height: 100%;
-    width: 100%;
-    border-radius: 7px;
-
-}
-@media (max-width: 480px) {
+    
+  }
+  .card1,
+  .card3,
+  .card5,
+  .card7,
+  .card9{
+    color: rgb(138, 113, 87);
+    background-color: white;
+  }
+  .card2,
+  .card4,
+  .card6,
+  .card8{
+    background-color: rgb(138, 113, 87);
+    color: white;
+  }
+  
+  @media (max-width: 480px) {
     .section3 {
-        padding: 5%;
-        display: block;
-        height: auto;
-      }
-    
-      .list-container {
-        font-size: 16px;
-        width: auto;
-      }
-      .wood-box{
-display: none
-      }
-
-    
-}
+      padding: 5%;
+      height: auto;
+    }
+    .header{
+      height:340px;
+      background-size: 160%;
+    }
+    .card-container{
+      width: 94%;
+    }
+  }

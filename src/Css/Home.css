@@ -1,16 +1,4 @@
 
-.img1,
-.img2,
-.img3,
-.motion-div-1,
-.motion-div-2,
-.motion-div-3,
-.process-step1,
-.process-step2,
-.process-step3,
-.process-step4,
-.process-step5,
-.process-step6,
 .boh-intro-text-box p {
   -webkit-box-shadow: 13px 12px 17px -7px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 13px 12px 17px -7px rgba(0, 0, 0, 0.4);
@@ -106,7 +94,7 @@
 .img3 {
   background-image: url("../Assets/veg6.jpg");
 } */
-.process-container {
+/* .process-container {
   display: flex;
   flex-wrap: wrap;
   padding: 5%;
@@ -126,7 +114,7 @@
   height: 500px;
   width: 49%;
   overflow-y: auto;
-  /* background-image: url("../Assets/houseplant.jpeg"); */
+
   background-size: cover;
   padding: 5%;
   scrollbar-width: thin;
@@ -172,7 +160,7 @@
 .process-step6 p {
   font-size: 17px;
   text-align: center;
-}
+} */
 
 .section6 {
   background-color: blue;

@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 5%;
-    height: 850px;
+    height: 750px;
     background-image: url("Assets/plant1.png");
     background-repeat: no-repeat;
     background-size: 60%;
@@ -65,13 +65,13 @@
   @media (max-width: 480px) {
     .section2 {
         display: inline-block;
-        height: 500px;
+        height: 200px;
         background-image: none;
         
       }
     .headshot {
         position: relative;
-        top: 100px;
+        top: 190px;
         left: 25px;
       height: 300px;
       width: 300px;
@@ -80,7 +80,7 @@
 
     .veg1 {
         position: relative;
-        top: -90px;
+        top: 50px;
         right: -20px;
         height: 325px;
         width: 325px;
@@ -93,7 +93,7 @@
     }
     .container2 p {
         position: relative;
-        top: -100px;
+        top: 40px;
         left: 190px;
         max-width: 300px;
         font-size: 16px;
