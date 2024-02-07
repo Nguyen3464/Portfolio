@@ -1,62 +1,31 @@
-// import React from 'react'
-// import { motion } from "framer-motion";
-// import { useInView } from "react-intersection-observer";
+import React from "react";
+// import backend from "./Assets/backend-image.png"
 
-// const Section4 = () => {
-//     const [sectionRef, sectionInView] = useInView({
-//         triggerOnce: true,
-//       });
-    
-//       const AnimateOnInView = ({ inView, children }) => {
-//         return inView ? children : null;
-//       };
-    
-//       const lineItems = [
-//         {
-//           title: "Wireframing and Prototyping",
-//           content:"Create visual representations of page layouts and content placement through wireframes. Firm understanding of UX/UI design principles, knowledge of information architecture.",
-//           transitionDuration: 1,
-//         },
-//         {
-//           title: "Design Mockups",
-//           content:
-//           "Design the visual elements of the website, including colors, typography, images, and branding elements. Collaboration with designers to maintain congruency of technical implementation and alignments with the design vision.",
-//           transitionDuration: 0.8,
-//         },
-//         {
-//           title: "Content Creation and Gathering",
-//           content:
-//           "Develop or gather content such as text, images, videos, and multimedia elements. Conduct content strategy research to refine both the user experience and technical aspects of the design.",
-//           transitionDuration: 1.2,
-//         },
-//       ];
-//   return (
-//     <>
-//         <section className='header'></section>
-//         <section className="section3" ref={sectionRef}>
-//         <div className="wood-box">
-            
-//         </div>
-//         <div className="list-container">
-//           {lineItems.map((item, index) => (
-//             <AnimateOnInView key={index} inView={sectionInView}>
-//               <motion.div
-//                 initial={{ opacity: 0, x: -40 }}
-//                 animate={{ opacity: 1, x: 0 }}
-//                 transition={{ duration: item.transitionDuration }}
-//                 className={`list-item motion-div-${index + 1}`}
-//               >
-//                 <h3>{item.title}</h3>
-//                 <p>{item.content}</p>
-//               </motion.div>
-//             </AnimateOnInView>
-//           ))}
-//         </div>
-//         <div className="wood-box">
-            
-//         </div>
-//       </section>            
-//     </>
-//   )
-// }
-// export default Section4
+const Section4 = () => {
+  return (
+    <>
+
+      <div className="Section4">
+        <header className="backend">
+            <h1>Backend Development</h1>
+        </header>
+        <section>
+          <div className="container">
+            <p>
+              As a backend developer, I employ the Rails MVC architecture for
+              creating and managing database models. I use JavaScript and Ruby
+              on Rails in facilitating database integrations, with an emphasis
+              on PostgreSQL for database design, querying, and optimization. I
+              prioritize data integrity and reliability with Test-driven
+              development practices using Jest and RSpec. In API development I
+              utilize Postman for verification of data connectivity, while
+              applying RESTful routes methodologies.
+            </p>
+            {/* <img src={backend} className="backend-image" alt=""/> */}
+          </div>
+        </section>
+      </div>
+    </>
+  );
+};
+export default Section4;

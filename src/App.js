@@ -17,6 +17,7 @@ import './Css/About.css'
 import './Components/Home/Section1/Section1.css'
 import './Components/Home/Section2/Section2.css'
 import './Components/Home/Section3/Section3.css'
+import './Components/Home/Section4/Section4.css'
 
 const App = () => {
   return (
