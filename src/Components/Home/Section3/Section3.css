@@ -87,6 +87,18 @@
       padding-top: 30%;
     }
     .card-container{
-      width: 94%;
+      padding-left: 1%;
+      width: 99%;
+    }
+    .card1,
+    .card3,
+    .card5,
+    .card7,
+    .card9,
+    .card2,
+    .card4,
+    .card6,
+    .card8{
+      min-width: 350px;
     }
   }
