@@ -14,7 +14,7 @@
     font-size: 100px;
 }
 
-.container {
+.container1 {
     display: flex;
     background-image: url(Assets/backend-image.png);
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@
     padding-top: 10%;
 }
 
-.container p{
+.container1 p{
     width: 450px;
     text-align: center;
     font-size: 17px;
@@ -48,11 +48,11 @@
         font-size: 60px;
         padding-top: 30%;
       }
-      .container{
+      .container1{
         background-position: 50% -50px;
         background-size: 180%;
       }
-      .container p{
+      .container1 p{
         margin-top: 70%;
         margin-left: 0;
         
