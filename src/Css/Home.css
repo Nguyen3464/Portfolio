@@ -172,14 +172,14 @@
  
 }
 
-.boh-intro-image-box {
-  background-image: url("../Assets/backend-image.png");
-  background-size: 170%;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 50%;
-  height: 75%;
-}
+  /* .boh-intro-image-box {
+    background-image: url("../Assets/backend-image.png");
+    background-size: 170%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 75%;
+  } */
 
 .boh-intro-text-box {
   display: flex;
