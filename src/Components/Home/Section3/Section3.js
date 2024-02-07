@@ -4,25 +4,11 @@ import React, { useRef, useEffect } from "react";
 const Section3 = () => {
   const containerRef = useRef();
 
-  // useEffect(() => {
-  //   const handleWheel = (e) => {
-  //     if (containerRef.current.contains(e.target)) {
-  //       containerRef.current.scrollLeft += e.deltaY;
-  //       e.preventDefault();
-  //     }
-  //   };
-
-  //   document.addEventListener("wheel", handleWheel, { passive: false });
-
-  //   return () => {
-  //     document.removeEventListener("wheel", handleWheel);
-  //   };
-  // }, []);
   useEffect(() => {
     const container = containerRef.current;
 
     const handleWheel = (event) => {
-      // Only scroll horizontally when the mouse wheel is over the container
+
       if (container.contains(event.target)) {
         container.scrollLeft += event.deltaY;
         event.preventDefault();
@@ -31,7 +17,6 @@ const Section3 = () => {
 
     container.addEventListener("wheel", handleWheel, { passive: false });
 
-    // Touch-based scrolling logic for mobile view
     let touchStartX = 0;
 
     const handleTouchStart = (event) => {
@@ -41,10 +26,10 @@ const Section3 = () => {
     const handleTouchMove = (event) => {
       const touchEndX = event.touches[0].clientX;
       const deltaX = touchStartX - touchEndX;
+      const scrollFactor = 0.1; 
 
-      // Check if the movement is mostly horizontal
       if (Math.abs(deltaX) > 10) {
-        container.scrollLeft += deltaX;
+        container.scrollLeft += deltaX * scrollFactor;
         event.preventDefault();
       }
     };

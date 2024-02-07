@@ -1,5 +1,4 @@
 import React from "react";
-// import backend from "./Assets/backend-image.png"
 
 const Section4 = () => {
   return (
@@ -21,7 +20,6 @@ const Section4 = () => {
               utilize Postman for verification of data connectivity, while
               applying RESTful routes methodologies.
             </p>
-            {/* <img src={backend} className="backend-image" alt=""/> */}
           </div>
         </section>
       </div>
