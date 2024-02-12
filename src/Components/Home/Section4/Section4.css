@@ -43,6 +43,7 @@
   .backend {
     height: 340px;
     background-size: 100%;
+
   }
   .backend h1 {
     font-size: 60px;
@@ -51,6 +52,8 @@
   .container1 {
     background-position: 50% -50px;
     background-size: 180%;
+    padding: 4%;
+    
   }
   .container1 p {
     margin-top: 70%;

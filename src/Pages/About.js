@@ -6,9 +6,11 @@ import Loc from "../Components/About/Loc/Loc";
 export const About = () => {
   return (
     <>
-      <Certifications />
-      <Awards />
-      <Loc />
+      <div className="container6">
+        <Certifications />
+        <Awards />
+        <Loc />
+      </div>
     </>
   );
 };
