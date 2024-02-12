@@ -1,11 +1,10 @@
-.section5{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2%;
-    background-image: url("Assets/shop.png");
-    background-size: 100%;
-    background-position: center;
-    height: auto;
-    /* overflow-x: auto; */
+.section5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2%;
+  background-image: url("Assets/shop.png");
+  background-size: 100%;
+  background-position: center;
+  height: auto;
 }

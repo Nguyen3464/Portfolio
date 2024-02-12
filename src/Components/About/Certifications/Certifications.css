@@ -1,5 +1,4 @@
-.awards-wrapper,
-.loc-wrapper {
+.certs-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -8,10 +7,13 @@
   background: whitesmoke;
 }
 
-.awards img,
-.loc img {
-  max-width: 100%;
-  height: auto;
+.certs {
+  width: 80%;
+}
+
+.certs-wrapper img {
+  width: 100%;
+  height: 100%;
   padding: 5%;
   margin-top: 5%;
   border-radius: 15px;

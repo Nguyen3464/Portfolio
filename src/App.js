@@ -9,7 +9,6 @@ import { Skills } from './Pages/Skills';
 import Contact from './Pages/Contact';
 import './Css/Footer.css';
 import './Css/Header.css';
-import './Css/Home.css';
 import './Css/Projects.css';
 import './Css/Contact.css';
 import './Css/Skills.css';
@@ -19,6 +18,9 @@ import './Components/Home/Section2/Section2.css'
 import './Components/Home/Section3/Section3.css'
 import './Components/Home/Section4/Section4.css'
 import './Components/Home/Section5/Section5.css'
+import './Components/About/Certifications/Certifications.css'
+import './Components/About/Awards/Awards.css'
+import './Components/About/Loc/Loc.css'
 
 const App = () => {
   return (

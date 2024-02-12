@@ -10,6 +10,10 @@ export const Header = () => {
     window.scrollTo(0, 0);
   }, [location.pathname]);
 
+  const handleNavLinkClick = () => {
+    setMenuOpen(false);
+  };
+
   return (
     <nav className="nav">
       <Link to="/" className="title">
@@ -22,16 +26,24 @@ export const Header = () => {
       </div>
       <ul className={menuOpen ? "open" : ""}>
         <li>
-          <NavLink to="/about">About</NavLink>
+          <NavLink to="/about" onClick={handleNavLinkClick}>
+            About
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/projects">Projects</NavLink>
+          <NavLink to="/projects" onClick={handleNavLinkClick}>
+            Projects
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/skills">Skills</NavLink>
+          <NavLink to="/skills" onClick={handleNavLinkClick}>
+            Skills
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/contact">Contact</NavLink>
+          <NavLink to="/contact" onClick={handleNavLinkClick}>
+            Contact
+          </NavLink>
         </li>
       </ul>
     </nav>
