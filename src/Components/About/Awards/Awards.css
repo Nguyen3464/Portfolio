@@ -1,0 +1,24 @@
+.awards-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background: whitesmoke;
+}
+
+.award {
+    width: 80%;
+  }
+
+.awards-wrapper img {
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+    margin-top: 5%;
+    border-radius: 15px;
+    -webkit-box-shadow: 13px 12px 17px -7px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 13px 12px 17px -7px rgba(0, 0, 0, 0.12);
+    box-shadow: 13px 12px 17px -7px rgba(0, 0, 0, 0.12);
+    background: white;
+}

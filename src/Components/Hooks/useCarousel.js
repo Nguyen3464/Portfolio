@@ -1,4 +1,3 @@
-// useCarousel.js
 import { useRef, useEffect, useState } from "react";
 import Glide from "@glidejs/glide";
 

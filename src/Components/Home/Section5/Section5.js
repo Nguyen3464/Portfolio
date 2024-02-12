@@ -1,52 +1,8 @@
-import React, { useRef, useEffect } from "react";
-
+import React from "react";
+import useCarousel from "../../Hooks/useCarousel";
 
 const Section5 = () => {
-  const containerRef = useRef();
-
-  useEffect(() => {
-    const container = containerRef.current;
-
-    const handleWheel = (event) => {
-
-      if (container.contains(event.target)) {
-        container.scrollLeft += event.deltaY;
-        event.preventDefault();
-      }
-    };
-
-    container.addEventListener("wheel", handleWheel, { passive: false });
-
-    let touchStartX = 0;
-
-    const handleTouchStart = (event) => {
-      touchStartX = event.touches[0].clientX;
-    };
-
-    const handleTouchMove = (event) => {
-      const touchEndX = event.touches[0].clientX;
-      const deltaX = touchStartX - touchEndX;
-      const scrollFactor = 0.1; 
-
-      if (Math.abs(deltaX) > 10) {
-        container.scrollLeft += deltaX * scrollFactor;
-        event.preventDefault();
-      }
-    };
-
-    container.addEventListener("touchstart", handleTouchStart, { passive: true });
-    container.addEventListener("touchmove", handleTouchMove, { passive: false });
-
-    return () => {
-      container.removeEventListener("wheel", handleWheel);
-      container.removeEventListener("touchstart", handleTouchStart);
-      container.removeEventListener("touchmove", handleTouchMove);
-    };
-  }, [containerRef]);
-
-  
-
-    const lineItems = [
+  const lineItems2 = [
     {
       title: "JavaScript and Ruby on Rails",
       content:
@@ -80,20 +36,42 @@ const Section5 = () => {
     {
       title: "Quality Checks and Maintenance",
       content:
-        "Incorporating comprehensive quality checks into the development process to deliver high-quality, maintainable code, ensuring robust software with minimal bugs and facilitating efficient future maintenance and updates."
-    }
+        "Incorporating comprehensive quality checks into the development process to deliver high-quality, maintainable code, ensuring robust software with minimal bugs and facilitating efficient future maintenance and updates.",
+    },
   ];
+  const { containerRef, groupedItems, bullets, controls } =
+    useCarousel(lineItems2);
 
   return (
     <>
       <section className="section5">
-        <div ref={containerRef} className="card-container">
-          {lineItems.map((item, index) => (
-            <div key={index} className={`card${index + 1}`}>
-              <h3>{item.title}</h3>
-              <p>{item.content}</p>
-            </div>
-          ))}
+        <div ref={containerRef} className="glide">
+          <div className="glide__track" data-glide-el="track">
+            <ul className="glide__slides">
+              {groupedItems.map((group, groupIndex) => (
+                <li key={groupIndex} className="glide__slide">
+                  <div className="card-container">
+                    {group.map((item, index) => (
+                      <div key={index} className={`card${index + 1}`}>
+                        <h3>{item.title}</h3>
+                        <p>{item.content}</p>
+                      </div>
+                    ))}
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Controls */}
+          <div className="glide__arrows" data-glide-el="controls">
+            {controls}
+          </div>
+
+          {/* Bullets */}
+          <div className="glide__bullets" data-glide-el="controls[nav]">
+            {bullets}
+          </div>
         </div>
       </section>
     </>

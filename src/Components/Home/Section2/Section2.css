@@ -69,8 +69,8 @@
   }
   .headshot {
     position: relative;
-    top: 190px;
-    left: 25px;
+    top: 130px;
+    left: 20px;
     height: 300px;
     width: 300px;
     z-index: -2;
@@ -78,8 +78,8 @@
 
   .veg1 {
     position: relative;
-    top: 50px;
-    right: -20px;
+    top: 5px;
+    right: -25px;
     height: 325px;
     width: 325px;
     z-index: 1;
@@ -91,7 +91,7 @@
   }
   .container2 p {
     position: relative;
-    top: 40px;
+    top: -20px;
     left: 190px;
     max-width: 350px;
     font-size: 16px;

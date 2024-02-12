@@ -16,7 +16,6 @@
   margin: 0;
 }
 
-/* Media Query for Mobile */
 @media (max-width: 480px) {
   .section1 {
     height: 800px;

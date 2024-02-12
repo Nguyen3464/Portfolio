@@ -58,36 +58,36 @@ const Section3 = () => {
       <header className="header">
         <h1>FrontEnd Development</h1>
       </header>
-      <div className="section3">
-      <div ref={containerRef} className="glide">
-        <div className="glide__track" data-glide-el="track">
-          <ul className="glide__slides">
-            {groupedItems.map((group, groupIndex) => (
-              <li key={groupIndex} className="glide__slide">
-                <div className="card-container">
-                  {group.map((item, index) => (
-                    <div key={index} className={`card${index + 1}`}>
-                      <h3>{item.title}</h3>
-                      <p>{item.content}</p>
-                    </div>
-                  ))}
-                </div>
-              </li>
-            ))}
-          </ul>
-        </div>
+      <section className="section3">
+        <div ref={containerRef} className="glide">
+          <div className="glide__track" data-glide-el="track">
+            <ul className="glide__slides">
+              {groupedItems.map((group, groupIndex) => (
+                <li key={groupIndex} className="glide__slide">
+                  <div className="card-container">
+                    {group.map((item, index) => (
+                      <div key={index} className={`card${index + 1}`}>
+                        <h3>{item.title}</h3>
+                        <p>{item.content}</p>
+                      </div>
+                    ))}
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </div>
 
-        {/* Controls */}
-        <div className="glide__arrows" data-glide-el="controls">
-          {controls}
-        </div>
+          {/* Controls */}
+          <div className="glide__arrows" data-glide-el="controls">
+            {controls}
+          </div>
 
-        {/* Bullets */}
-        <div className="glide__bullets" data-glide-el="controls[nav]">
-          {bullets}
+          {/* Bullets */}
+          <div className="glide__bullets" data-glide-el="controls[nav]">
+            {bullets}
+          </div>
         </div>
-      </div>
-      </div>
+      </section>
     </>
   );
 };
