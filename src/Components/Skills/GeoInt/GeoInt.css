@@ -1,20 +1,23 @@
-/* 
 .geoint {
-  height: 1200px;
+  height: auto;
   width: 100%;
-  background-image: url("../Assets/ocp.webp");
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 10%;
-  position: relative;
+  background-color: rgb(236, 233, 205);
 }
-
+.army-photo-container {
+  padding: 5%;
+  border-radius: 15px;
+}
+.army-photo {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
 .geoint h1 {
-  position: absolute;
-  top: 30%;
-  left: 25.5%;
   z-index: 2;
-  font-size: 40px;
+  position: relative;
+  top: 7em;
+  left: 6.25em;
+  font-size: 2.7em;
   color: gold;
   font-style: bold;
 }
@@ -34,14 +37,89 @@
   object-fit: cover;
   position: absolute;
 }
+
+/* General styling for all grid items */
+.grid-item {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Styling for specific grid items */
+.grid-item1 {
+  background-color: #f1c40f;
+  width: 30%;
+  height: 60%;
+}
+
+.grid-item2 {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.grid-item3 {
+  background-color: #2ecc71;
+}
+
+.grid-item4 {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.grid-item img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+/* Additional styling for skills */
 .geoint-skills-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #333; /* Adjust text color as needed */
+}
+
+.skills1 {
+  width: 80%;
+  margin: 10px auto; /* Adjust spacing between skills */
+}
+
+/* Hover effect */
+.grid-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+  .grid-item {
+    padding: 10px;
+  }
+}
+
+/* .geoint-skills-container {
   text-align: center;
 }
 .grid-container {
   display: grid;
   grid-template-columns: 700px 200px;
   grid-auto-rows: minmax(150px, auto);
-  grid-gap: 5px; 
+
   height: auto;
   background-color: rgb(236, 233, 205);
   padding: 5%;
@@ -50,7 +128,7 @@
   grid-column: 1;
   grid-row-start: 1;
   grid-row-end: 6;
-  background-image: url("../Assets/gis1.jpeg");
+  background-image: url("./Assets/gis1.jpeg");
   background-size: 100% 100%;
 }
 .grid-item2 {
@@ -60,14 +138,14 @@
   grid-column-start: 2;
   grid-column-end: 6;
 
-  background-image: url("../Assets/gis4.png");
+  background-image: url("./Assets/gis4.png");
 }
 .grid-item3 {
   grid-row-start: 4;
   grid-row-end: 6;
   grid-column-start: 2;
   grid-column-end: 4;
-  background-image: url("../Assets/gis3.jpeg");
+  background-image: url("./Assets/gis3.jpeg");
 }
 .grid-item4 {
   grid-row-start: 4;
@@ -75,7 +153,7 @@
   grid-column-start: 4;
   grid-column-end: 6;
 
-  background-image: url("../Assets/gis2.jpeg");
+  background-image: url("./Assets/gis2.jpeg");
 }
 
 .grid-item2,
@@ -129,5 +207,5 @@
     grid-column-start: auto;
     grid-column-end: auto;
     height: 450px;
-  }
-}  */
+  } 
+}*/

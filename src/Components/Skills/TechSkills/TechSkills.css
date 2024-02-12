@@ -1,0 +1,48 @@
+.container3 {
+  background-color: rgb(236, 233, 205);
+  padding: 5%;
+}
+
+.images {
+  min-height: 50px;
+  object-fit: cover;
+  overflow: hidden;
+  padding: 10px;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  border: 2px solid rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 13px 12px 17px -7px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 13px 12px 17px -7px rgba(0, 0, 0, 0.3);
+  box-shadow: 13px 12px 17px -7px rgba(0, 0, 0, 0.3);
+}
+
+.box1 {
+  height: 150px;
+  object-fit: contain;
+}
+.box2 {
+  height: 175px;
+  object-fit: contain;
+}
+.box3 {
+  height: 200px;
+  object-fit: contain;
+}
+.box4 {
+  height: 225px;
+  object-fit: contain;
+}
+.box5 {
+  height: 250px;
+  object-fit: contain;
+}
+@media (max-width: 480px) {
+  .box1,
+  .box2,
+  .box3,
+  .box4,
+  .box5 {
+    min-height: 200px;
+    max-height: 200px;
+  }
+}

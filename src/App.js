@@ -21,6 +21,8 @@ import './Components/Home/Section5/Section5.css'
 import './Components/About/Certifications/Certifications.css'
 import './Components/About/Awards/Awards.css'
 import './Components/About/Loc/Loc.css'
+import './Components/Skills/TechSkills/TechSkills.css'
+import './Components/Skills/GeoInt/GeoInt.css'
 
 const App = () => {
   return (
