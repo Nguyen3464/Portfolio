@@ -1,61 +1,59 @@
-
 .backend {
-    background-image: url("Assets/header2.png");
-    width: 100%; 
-    height: 450px;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: 10% 30%;
+  background-image: url("Assets/header2.png");
+  width: 100%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 10% 30%;
 }
 .backend h1 {
-    color: gold;
-    text-align: center;
-    padding-top: 10%;
-    font-size: 100px;
+  color: gold;
+  text-align: center;
+  padding-top: 5%;
+  font-size: 6em;
 }
 
 .container1 {
-    display: flex;
-    background-image: url(Assets/backend-image.png);
-    background-repeat: no-repeat;
-    background-size: 110%;
-    background-position: -150%;
-    padding-top: 10%;
+  display: flex;
+  background-image: url(Assets/backend-image.png);
+  background-repeat: no-repeat;
+  background-size: 110%;
+  background-position: -150%;
+  padding-top: 10%;
 }
 
-.container1 p{
-    width: 450px;
-    text-align: center;
-    font-size: 17px;
-    border: 1px solid rgb(65, 65, 72, 0.2);
-    border-radius: 10px;
-    background-color: whitesmoke;
-    padding: 5%;
-    margin-left: 10%;
-    margin-top: auto;
-    -webkit-box-shadow: 13px 12px 17px -7px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 13px 12px 17px -7px rgba(0, 0, 0, 0.4);
-    box-shadow: 13px 12px 17px -7px rgba(0, 0, 0, 0.4);
-    border: 1px solid rgba(0, 0, 0, 0.1);   
+.container1 p {
+  width: 450px;
+  text-align: center;
+  font-size: 17px;
+  border: 1px solid rgb(65, 65, 72, 0.2);
+  border-radius: 10px;
+  background-color: whitesmoke;
+  padding: 5%;
+  margin-left: 10%;
+  margin-top: auto;
+  -webkit-box-shadow: 13px 12px 17px -7px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 13px 12px 17px -7px rgba(0, 0, 0, 0.4);
+  box-shadow: 13px 12px 17px -7px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 480px) {
-    .backend{
-        height:340px;
-        background-size: 100%;
-      }
-    .backend h1{
-        font-size: 60px;
-        padding-top: 30%;
-      }
-      .container1{
-        background-position: 50% -50px;
-        background-size: 180%;
-      }
-      .container1 p{
-        margin-top: 70%;
-        margin-left: 0;
-        
-
-      }
+  .backend {
+    height: 340px;
+    background-size: 100%;
+  }
+  .backend h1 {
+    font-size: 60px;
+    padding-top: 30%;
+  }
+  .container1 {
+    background-position: 50% -50px;
+    background-size: 180%;
+  }
+  .container1 p {
+    margin-top: 70%;
+    margin-left: 0;
+  }
 }

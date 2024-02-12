@@ -6,11 +6,11 @@ const Section2 = () => {
   return (
     <>
       <section className="section2">
-        <div className="container1">
+        <div className="container11">
           <img className="headshot" src={headshot} alt="" />
         </div>
         <div className="container2">
-          <img className="veg1" src={veg1} alt=""/>
+          <img className="veg1" src={veg1} alt="" />
           <p>
             As a Front-end Developer im passionate about crafting user
             experiences with HTML, CSS, and React. My focus on responsive design
