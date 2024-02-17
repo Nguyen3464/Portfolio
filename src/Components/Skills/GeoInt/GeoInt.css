@@ -1,4 +1,173 @@
 .geoint {
+  height: 1200px;
+  width: 100%;
+  background-image: url("./Assets/ocp.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10%;
+  position: relative;
+}
+
+.geoint h1 {
+  position: absolute;
+  top: 30%;
+  left: 25.5%;
+  z-index: 2;
+  font-size: 40px;
+  color: gold;
+  font-style: bold;
+}
+
+.army {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.army-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+.geoint-skills-container {
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-image: linear-gradient(
+    to right top,
+    rgba(183, 246, 76, 0.7),
+    rgba(208, 240, 101, 0.7),
+    rgba(225, 235, 127, 0.7),
+    rgba(235, 231, 154, 0.7),
+    rgba(239, 229, 182, 0.7),
+    rgba(229, 219, 182, 0.7),
+    rgba(219, 210, 183, 0.7),
+    rgba(208, 201, 183, 0.7),
+    rgba(189, 180, 156, 0.7),
+    rgba(170, 168, 130, 0.7),
+    rgba(152, 140, 104, 0.7),
+    rgba(133, 121, 81, 0.7),
+    rgba(118, 109, 79, 0.7)
+  );
+}
+.skills1 {
+  width: 80%;
+  padding: 2%;
+  margin-top: 5%;
+  margin: 2% auto;
+  text-align: center;
+  font-size: 17px;
+  color: rgb(65, 65, 72);
+  border: 1px solid rgb(65, 65, 72, 0.2);
+  border-radius: 10px;
+  background-color: whitesmoke;
+  /* padding: 5%; */
+  -webkit-box-shadow: 13px 12px 17px -7px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 13px 12px 17px -7px rgba(0, 0, 0, 0.4);
+  box-shadow: 13px 12px 17px -7px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 700px 200px;
+  grid-auto-rows: minmax(150px, auto);
+  grid-gap: 5px;
+  height: auto;
+  background-color: rgb(236, 233, 205);
+  padding: 5%;
+}
+.grid-item1 {
+  grid-column: 1;
+  grid-row-start: 1;
+  grid-row-end: 6;
+  background-image: url("./Assets/gis1.jpeg");
+  background-size: 100% 100%;
+}
+.grid-item2 {
+  grid-column: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 6;
+
+  background-image: url("./Assets/gis4.png");
+}
+.grid-item3 {
+  grid-row-start: 4;
+  grid-row-end: 6;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  background-image: url("./Assets/gis3.jpeg");
+}
+.grid-item4 {
+  grid-row-start: 4;
+  grid-row-end: 6;
+  grid-column-start: 4;
+  grid-column-end: 6;
+
+  background-image: url("./Assets/gis2.jpeg");
+}
+
+.grid-item2,
+.grid-item3,
+.grid-item4 {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+}
+@media (max-width: 480px) {
+  .geoint {
+    height: 410px;
+    padding: 5%;
+    text-align: center;
+  }
+
+  .geoint h1 {
+    text-align: center;
+    font-size: 15.5px;
+    top: 100px;
+    left: 20.5%;
+  }
+
+  .army-image {
+    width: 450px;
+    height: 300px;
+  }
+
+  .geoint-skills-container {
+    flex-direction: column;
+  }
+
+  .skills1 {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-item1,
+  .grid-item2,
+  .grid-item3,
+  .grid-item4 {
+    grid-row-start: auto;
+    grid-row-end: auto;
+    grid-column-start: auto;
+    grid-column-end: auto;
+    height: 450px;
+  }
+}
+
+/* .geoint {
   height: auto;
   width: 100%;
   background-color: rgb(236, 233, 205);
@@ -38,7 +207,7 @@
   position: absolute;
 }
 
-/* General styling for all grid items */
+
 .grid-item {
   position: relative;
   background-repeat: no-repeat;
@@ -56,7 +225,6 @@
   transition: transform 0.3s ease-in-out;
 }
 
-/* Styling for specific grid items */
 .grid-item1 {
   background-color: #f1c40f;
   width: 30%;
@@ -85,32 +253,31 @@
   margin-bottom: 15px;
 }
 
-/* Additional styling for skills */
+
 .geoint-skills-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #333; /* Adjust text color as needed */
+  color: #333; 
 }
 
 .skills1 {
   width: 80%;
-  margin: 10px auto; /* Adjust spacing between skills */
+  margin: 10px auto;
 }
 
-/* Hover effect */
+
 .grid-item:hover {
   transform: scale(1.05);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Media query for responsive design */
 @media (max-width: 768px) {
   .grid-item {
     padding: 10px;
   }
-}
+} */
 
 /* .geoint-skills-container {
   text-align: center;
