@@ -267,19 +267,19 @@
   }
   .flower2 {
     position: absolute;
-    bottom: 0;
-    left: 7%;
+    bottom: -10%;
+    left: -7%;
     overflow: hidden;
-    height: 100px;
-    width: 350px;
+    height: 200px;
+    width: 450px;
     z-index: -2;
   }
 
   .sun {
     position: absolute;
     z-index: -5;
-    top: -7%;
-    left: -73%;
+    top: -9%;
+    left: -63%;
     height: 200px;
     width: 650px;
     overflow: hidden;

@@ -131,7 +131,8 @@
   .glide__bullets button {
     margin-top: 5%;
     margin-bottom: 5%;
-    height: 40px;
+    height: 10px;
+    width: 10px;
   }
   .header h1 {
     font-size: 3em;
@@ -151,8 +152,8 @@
 
   .card-container {
     width: 100%;
-    margin-top: 2%;
-    margin-left: 2%;
+    margin-top: 3%;
+    margin-left: 3%;
     
   }
   .card1,
