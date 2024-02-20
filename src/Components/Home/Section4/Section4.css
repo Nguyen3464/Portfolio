@@ -1,11 +1,10 @@
 .backend {
   background-image: url("Assets/header2.png");
+  text-align: center;
+  background-position: 20% 40%;
   width: 100%;
   padding-top: 15%;
   padding-bottom: 15%;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: 10% 30%;
 }
 .backend h1 {
   color: gold;
@@ -41,19 +40,16 @@
 
 @media (max-width: 480px) {
   .backend {
-    height: 340px;
+    /* height: 340px; */
     background-size: 100%;
-
   }
   .backend h1 {
-    font-size: 60px;
-    padding-top: 30%;
+    font-size: 3em;
   }
   .container1 {
     background-position: 50% -50px;
     background-size: 180%;
     padding: 4%;
-    
   }
   .container1 p {
     margin-top: 70%;
