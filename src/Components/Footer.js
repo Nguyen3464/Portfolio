@@ -8,7 +8,7 @@ import {
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleUp } from "@fortawesome/free-solid-svg-icons";
-import resume from "../Assets/Cv Resume (2).pdf.pdf";
+import resume from "../Assets/Resume2024.pdf";
 import coverletter from "../Assets/Coverletter (2).pdf.pdf";
 
 export const Footer = () => {
